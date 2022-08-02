@@ -98,7 +98,7 @@ class ScreenShotSharedConfig(Config):
         utils.DirUtil.makeFolder(self._data["shared_folder"])
         self.__sharedPath               = self._data["shared_folder"] + "\\"
         
-        # public
+    # public
     def log(self):
         return "oybpeepshow.log"
     
