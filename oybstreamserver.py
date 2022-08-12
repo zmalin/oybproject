@@ -1,4 +1,4 @@
-import time
+#import time
 from config import ConfigFactory
 from config import Project
 from config import ScreenStreamConfig
@@ -14,7 +14,7 @@ if __name__ == "__main__":
         receiver.start_server()
         
         while input("") != "STOP":
-            time.sleep(0.001)
+            #time.sleep(0.001)
             pass
         
         receiver.stop_server()

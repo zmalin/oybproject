@@ -1,6 +1,6 @@
 import datetime
 import schedule
-import time
+#import time
 import os
 
 from log import Log
@@ -19,7 +19,7 @@ class GarbageSchedule:
     def start(self, thread):
         while thread.is_alive():
             schedule.run_pending()
-            time.sleep(1)
+            #time.sleep(1)
     
     def stop(self):
         Log.log().info("grabage schedule stop")
